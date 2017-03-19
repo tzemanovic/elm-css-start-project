@@ -8,6 +8,8 @@ Basic start project template using:
 
 ## Installation
 
+Run `./install-dependencies.sh` to install the following:
+
 * create-elm-app
   `npm install create-elm-app -g`
 * elm-css
