@@ -11,7 +11,7 @@ Basic start project template using:
 * create-elm-app
   `npm install create-elm-app -g`
 * elm-css
-  `npm install -g elm-css`
+  `npm install elm-css -g`
 * watchexec
   `brew install watchexec` (or using cargo `cargo install watchexec`)
   
