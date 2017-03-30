@@ -12,7 +12,7 @@ port files : CssFileStructure -> Cmd msg
 cssFiles : CssFileStructure
 cssFiles =
     toFileStructure
-        [ ( "../../src/main.css", Css.compile [ Css.Normalize.css, Style.appCss ] ) ]
+        [ ( "../../src/style/main.css", Css.compile [ Css.Normalize.css, Style.appCss ] ) ]
 
 main : CssCompilerProgram
 main =

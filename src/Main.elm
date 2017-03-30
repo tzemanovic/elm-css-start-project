@@ -1,6 +1,7 @@
-module Main exposing (..)
+module Main exposing (main)
 
-import View exposing (..)
+import Assets exposing (Assets)
+import View exposing (view, init, update, Msg, Model, subscriptions)
 import Html exposing (programWithFlags)
 import Shared exposing (cssNamespace)
 import Html.CssHelpers exposing (withNamespace)
@@ -9,8 +10,7 @@ import Html.CssHelpers exposing (withNamespace)
 { id, class, classList } =
     Html.CssHelpers.withNamespace cssNamespace
 
-
-main : Program String Model Msg
+main : Program Assets Model Msg
 main =
     programWithFlags
         { view = view
